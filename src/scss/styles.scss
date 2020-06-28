@@ -1,0 +1,51 @@
+
+.searchForm{
+display: flex;
+flex-direction: column;
+}
+
+
+.searchForm__searchBar {
+  width: auto;
+  border-radius: 15px;
+  height: 6vh;
+  justify-self: center;
+}
+    
+.searchButton {
+  display: block;
+  justify-self: center;
+  font-size: 2em;
+  border-radius: 15px;
+  background-color: green;
+  color: white;
+  height: 10vh;
+    
+}
+
+.searchList{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.movieImage{
+  border-radius: 15px;
+}
+
+
+.movieText{
+font-weight: bold;
+font-size: 2em;
+margin-top: 3vh;
+margin-bottom: 7vh;
+text-align: center;
+}
+
+.movieBlock {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
